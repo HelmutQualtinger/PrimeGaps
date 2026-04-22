@@ -12,7 +12,7 @@ For gaps between consecutive primes $p_n$ and $p_{n+1}$, where $d_n = p_{n+1} - 
 *   **Cousin Primes:** Correspond to a gap of 4.
 *   **Sexy Primes:** Correspond to a gap of 6.
 
-The distribution displays patterns related to primorials ($n\#$), where gaps that are multiples of small primes occur significantly more frequently.
+The distribution displays patterns related to primorials (n#), where gaps that are multiples of small primes occur significantly more frequently.
 
 ### Algorithmic Implementation
 
