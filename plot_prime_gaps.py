@@ -3,12 +3,14 @@ import plotly.graph_objects as go
 import plotly.io as pio
 import webbrowser
 import os
+import numba
 
+@numba.njit
 def sieve_of_eratosthenes(limit):
     """
     Ein effizientes Sieb des Eratosthenes, um Primzahlen bis zum Limit zu finden.
     """
-    primes = np.ones(limit + 1, dtype=bool)
+    primes = np.ones(limit + 1, dtype=np.bool_)
     primes[0:2] = False
     for p in range(2, int(np.sqrt(limit)) + 1):
         if primes[p]:
