@@ -10,7 +10,7 @@ The **Prime Number Theorem** states that the average gap between primes near $x$
 For gaps between consecutive primes $p_n$ and $p_{n+1}$, where $d_n = p_{n+1} - p_n$:
 *   **Twin Primes:** Correspond to a gap of 2.
 *   **Cousin Primes:** Correspond to a gap of 4.
-*   **Sexy Primes:** Correspond to a gap of 6.
+Sexy Primes: Correspond to a gap of 6.
 The distribution displays patterns related to primorials ($n\#$), where gaps that are multiples of small primes occur significantly more frequently.
 
 ### Algorithmic Implementation
